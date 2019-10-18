@@ -1,7 +1,4 @@
-# Flappy-Bird
-利用Python中的pygame库来实现Flappy Bird小游戏的开发
+# Role-manager
+Node.js练习项目，通过express框架实现的（增删改查）角色管理器。
 
-
-程序结构：
-- assets    资源文件夹
-- bin.py    启动程序文件
+## 效果展示
