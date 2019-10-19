@@ -22,6 +22,10 @@ module.exports = {
                  var backstr = "<script>alert('登录成功。');window.location.href='./'</script>";
                  response.setHeader('Content-Type', 'text/html;charset=utf-8');
                  response.end(backstr);   
+            } else {
+                var backstr = "<script>alert('登录失败！');window.location.href='./login'</script>";
+                response.setHeader('Content-Type', 'text/html;charset=utf-8');
+                response.end(backstr);                  
             }
         });
     },
